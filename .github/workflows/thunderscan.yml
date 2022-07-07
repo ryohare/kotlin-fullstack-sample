@@ -1,7 +1,7 @@
-name: Thunderscan-4
+name: Thunderscan
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   Thunderscan:
     name: Thunerscan 
