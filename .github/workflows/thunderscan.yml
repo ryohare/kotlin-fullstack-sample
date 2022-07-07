@@ -25,4 +25,4 @@ jobs:
           find .
       - name: Run Thunderscan
         run: |
-          ./mendsastcli --app "k8s Sample App" --report formats "html,json" --filename "report" --name "K8s Sample App" --dir
+          ./mendsastcli --app "k8s Sample App" --report formats "html,json" --filename "report" --name "K8s Sample App" --dir .
